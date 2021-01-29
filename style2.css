@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper{
+   width: 1170px;
+   margin:auto;
+}
+header{
+	background: url(https://static.wikia.nocookie.net/undertale/images/a/ac/Tem_Shop_location.png/revision/latest?cb=20200925005314);
+    width: 140vh; 
+    background-position:center;
+   position: absolute;
+   align-self: top
+
+  }
+  .nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px
+
+}
+.nav-area li{
+         display: inline-block;
+}
+.nav-area li a{
+         color: #fff;
+         text-decoration: none;
+         padding: 5px 20px;
+         font-family: poppins;
+         font-size: 14px;
+}
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+.logo img{
+  width: 100px;
+  float: right;
+  height: auto;
+}
+img{
+  border-radius: 30%
+}
+body{
+  background-image: url(https://cutewallpaper.org/21/tem-shop-background/Pixilart-Tem-Shop-with-DETAIL-by-Darkstream.png);
+ background-size: 200%;
+ overflow: auto;
+}
+ .Welcome-text{
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+  border: 5px groove
+  border-color:;
+  text-decoration-color: #DE3163
+}
+.Welcome-text a{
+  border: 5px double #000000;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+ text-decoration-color: black
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+position: relative;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+ vertical-align: right
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.img{
+  position: absolute;
+  align-self: left
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
